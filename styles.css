@@ -73,7 +73,6 @@ a:hover {
 #app logo {
   font-family: 'Roboto Condensed', sans-serif;
   padding: 21px;
-  border: 8px solid rgba(35, 83, 71, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -108,6 +107,27 @@ a:hover {
   max-width: 900px;
   text-align: left;
   color: rgb(68, 68, 68)
+}
+
+#app .apps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#app .apps .app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  text-decoration: none;
+}
+
+#app .apps .app span {
+  display: inline-block;
+  margin: 0;
 }
 
 @media only screen and (max-width: 599px) {
